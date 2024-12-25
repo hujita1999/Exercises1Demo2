@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.header-logo {
+    width: 100px;
+    line-height: 1px;
+    margin-right: 60px;
+}
+
+.header-logo a {
+    display: block;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1032px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+
+
+/* ここからヘッダー */
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .inner {
+    display: flex;
+    align-items: center;
+}
+
+#header .inner ul {
+    display: flex;
+    align-items: center;
+}
+
+#header .inner li {
+    margin-right: 30px;
+}
+
+#header .contactUs {
+    width: 200px;
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#header .contactUs:hover {
+    opacity: 0.7;
+} 
+
+/* ここからメイン */
+
+#mainvisual {
+    margin-bottom: 120px;
+}
+
+#mainvisual img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
+}
+

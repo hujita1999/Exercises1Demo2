@@ -11,17 +11,21 @@
   </head>
 
   <body>
-    <header id="header" class="container">
-        <h1 class="header-logo"><a href="index.html"><img src="./imgfile/logo.svg" alt="WEB"></a></h1>
+    <header id="header">
+      <div class="inner wrapper">
+        <h1 class="header-logo">
+          <a href="index.html"><img src="./imgfile/logo.svg" alt="WEBlogo"></a>
+        </h1>
         <nav>
             <ul>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">BUSINESS</a></li>
-                <li><a href="">COMPANY</a></li>
+                <li><a href="#NEWS">NEWS</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#BUSINESS">BUSINESS</a></li>
+                <li><a href="#COMPANY">COMPANY</a></li>
             </ul>
         </nav>
-        <a href="">お問い合わせ</a>
+      </div>
+      <a class="contactUs" href="#contactUs">お問い合わせ</a>
     </header>
 
 
@@ -31,7 +35,7 @@
             <img src="./imgfile/mainvisual.jpg" alt="mainvisual">
         </div>
 
-        <section id="news" class="container">
+        <section id="news" class="wrapper">
             <h2 class="section-title">
               <span>NEWS</span>
               <span>ニュース</span>
@@ -76,7 +80,7 @@
         </section>
 
 
-        <section id="business" class="container">
+        <section id="business" class="wrapper">
           <h2 class="section-title">
             <span>BUSINESS</span>
             <span>事業内容</span>
@@ -108,13 +112,59 @@
         </section>
 
 
-        <section id="company"></section>
+        <section id="company" class="wrapper">
+          <h2 class="section-title">
+            <span>COMPANY</span>
+            <span>会社概要</span>
+          </h2>
 
+          <dl class="list">
+            <dt>会社名</dt>
+            <dd>ウェブエンターテイメントデザイン株式会社</dd>
+
+            <dt>所在地</dt>
+            <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+
+            <dt>代表</dt>
+            <dd>ＸＸＸＸＸＸ</dd>
+
+            <dt>設立</dt>
+            <dd>2021年1月1日</dd>
+
+            <dt>資本金</dt>
+            <dd>3,000,000円</dd>
+
+            <dt>事業内容</dt>
+            <dd>Web制作・マーケティング</dd>
+            <dd>インターネットメディア事業</dd>
+            <dd>プロモーション企画・制作</dd>
+            <dd>ソーシャル企画・運営</dd>
+          </dl>
+
+          <div class="company-img">
+            <img src="./imgfile/company.jpg" alt="company">
+          </div>
+        </section>
     </main>
 
 
 
     <footer>
+      <div class="footer-content">
+        <div class="wrapper">
+          <div class="footer-img">
+            <img src="./imgfile/logo.svg" alt="WEBlogo">
+          </div>
+          <div class="footer-text">
+            <p>Web Entertainment Design Inc.</p>
+            <p>West Building 3F</p>
+            <p>9-99 Sakuragaokacho Shibuya-ku</p>
+            <p>Tokyo, Japan 150-0031</p>
+            <p>T/99-9999-9999</p>
+          </div>
+        </div>
+        <p class="copyright">© Web Entertainment Design Inc.</p>
+      </div>
     </footer>
 
   </body>
