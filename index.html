@@ -31,80 +31,84 @@
 
 
     <main>
-        <div id="mainvisual">
+        <div id="main-visual">
             <img src="./imgfile/mainvisual.jpg" alt="mainvisual">
         </div>
 
         <section id="news" class="wrapper">
             <h2 class="section-title">
-              <span>NEWS</span>
-              <span>ニュース</span>
+              <span class="en">NEWS</span>
+              <span class="jp">ニュース</span>
             </h2>
-            <ul>
+
+            <ul class="list">
               <li>
-                <div class="news1content">
+                <div class="date-area">
                   <time datetime="2021-01-01">2021.01.01</time>
                   <span>NEWS</span>
-                  <p>タイトルタイトルタイトルタイトル</p>
                 </div>
-
-                <div class="presscontent">
+                <p>タイトルタイトルタイトルタイトル</p>
+              </li>
+              <li>
+                <div class="date-area">
                   <time datetime="2021-01-01">2021.01.01</time>
                   <span>PRESS</span>
-                  <p>タイトルタイトルタイトルタイトル</p>
                 </div>
-                
-                <div class="news2content">
+                <p>タイトルタイトルタイトルタイトル</p>
+              </li>
+              <li>
+                <div class="date-area">
                   <time datetime="2021-01-01">2021.01.01</time>
                   <span>NEWS</span>
-                  <p>タイトルタイトルタイトルタイトル</p>
                 </div>
-
+                <p>タイトルタイトルタイトルタイトル</p>
               </li>
             </ul>
         </section>
 
 
         <section id="about">
-          <div class="aboutimg">
+          <div class="about-img">
             <img src="./imgfile/about.jpg" alt="about">
           </div>
 
-          <div class="about-contant">
+          <div class="about-content">
             <h2 class="section-title">
-              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+              <span class="en">ABOUT</span>
+              <span class="jp">私たちについて</span>
             </h2>
+              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+              <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
           </div>
         </section>
 
 
         <section id="business" class="wrapper">
           <h2 class="section-title">
-            <span>BUSINESS</span>
-            <span>事業内容</span>
+            <span class="en">BUSINESS</span>
+            <span class="jp">事業内容</span>
           </h2>
 
           <div class="business-main">
             <div class="business-left">
               <div class="item">
-                <p>Web制作・マーケティング</p>
+                <p class="title">Web制作・マーケティング</p>
                 <img src="./imgfile/business1.jpg" alt="business1">
               </div>
               <div class="item">
-                <p>インターネットメディア事業</p>
+                <p class="title">インターネットメディア事業</p>
                 <img src="./imgfile/business2.jpg" alt="business2">
               </div>
             </div>
 
             <div class="business-right">
               <div class="item">
-                <p>プロモーション企画・制作</p>
+                <p class="title">プロモーション企画・制作</p>
                 <img src="./imgfile/business3.jpg" alt="business3">
               </div>
               <div class="item">
-                <p>ソーシャル企画・運営</p>
+                <p class="title">ソーシャル企画・運営</p>
                 <img src="./imgfile/business4.jpg" alt="business4">
               </div>
             </div>
@@ -113,33 +117,35 @@
 
 
         <section id="company" class="wrapper">
-          <h2 class="section-title">
-            <span>COMPANY</span>
-            <span>会社概要</span>
-          </h2>
+          <div class="text">
+            <h2 class="section-title">
+              <span class="en">COMPANY</span>
+              <span class="jp">会社概要</span>
+            </h2>
 
-          <dl class="list">
-            <dt>会社名</dt>
-            <dd>ウェブエンターテイメントデザイン株式会社</dd>
+            <dl class="list">
+              <dt>会社名</dt>
+              <dd>ウェブエンターテイメントデザイン株式会社</dd>
 
-            <dt>所在地</dt>
-            <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+              <dt>所在地</dt>
+              <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
 
-            <dt>代表</dt>
-            <dd>ＸＸＸＸＸＸ</dd>
+              <dt>代表</dt>
+              <dd>ＸＸＸＸＸＸ</dd>
 
-            <dt>設立</dt>
-            <dd>2021年1月1日</dd>
+              <dt>設立</dt>
+              <dd>2021年1月1日</dd>
 
-            <dt>資本金</dt>
-            <dd>3,000,000円</dd>
+              <dt>資本金</dt>
+              <dd>3,000,000円</dd>
 
-            <dt>事業内容</dt>
-            <dd>Web制作・マーケティング</dd>
-            <dd>インターネットメディア事業</dd>
-            <dd>プロモーション企画・制作</dd>
-            <dd>ソーシャル企画・運営</dd>
-          </dl>
+              <dt>事業内容</dt>
+              <dd>Web制作・マーケティング</dd>
+              <dd class="add">インターネットメディア事業</dd>
+              <dd class="add">プロモーション企画・制作</dd>
+              <dd class="add">ソーシャル企画・運営</dd>
+            </dl>
+          </div>
 
           <div class="company-img">
             <img src="./imgfile/company.jpg" alt="company">
