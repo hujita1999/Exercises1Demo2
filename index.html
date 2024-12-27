@@ -2,13 +2,15 @@
 <html lang="jp">
   <head>
     <meta charset="utf-8">
-    <title>Profile</title>
+    <title>Web Entertainment Design</title>
     <meta name="description" content="テキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./imgfile/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
+
+
 
   <body>
     <header id="header">
@@ -18,14 +20,14 @@
         </h1>
         <nav>
             <ul>
-                <li><a href="#NEWS">NEWS</a></li>
-                <li><a href="#ABOUT">ABOUT</a></li>
-                <li><a href="#BUSINESS">BUSINESS</a></li>
-                <li><a href="#COMPANY">COMPANY</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#business">BUSINESS</a></li>
+                <li><a href="#company">COMPANY</a></li>
             </ul>
         </nav>
       </div>
-      <a class="contactUs" href="#contactUs">お問い合わせ</a>
+      <a class="contactUs" href="">お問い合わせ</a>
     </header>
 
 
@@ -67,8 +69,9 @@
         </section>
 
 
+
         <section id="about">
-          <div class="about-img">
+          <div class="img">
             <img src="./imgfile/about.jpg" alt="about">
           </div>
 
@@ -84,14 +87,15 @@
         </section>
 
 
+
         <section id="business" class="wrapper">
           <h2 class="section-title">
             <span class="en">BUSINESS</span>
             <span class="jp">事業内容</span>
           </h2>
 
-          <div class="business-main">
-            <div class="business-left">
+          <div class="flex">
+            <div class="left">
               <div class="item">
                 <p class="title">Web制作・マーケティング</p>
                 <img src="./imgfile/business1.jpg" alt="business1">
@@ -102,7 +106,7 @@
               </div>
             </div>
 
-            <div class="business-right">
+            <div class="right">
               <div class="item">
                 <p class="title">プロモーション企画・制作</p>
                 <img src="./imgfile/business3.jpg" alt="business3">
@@ -116,6 +120,7 @@
         </section>
 
 
+
         <section id="company" class="wrapper">
           <div class="text">
             <h2 class="section-title">
@@ -123,7 +128,7 @@
               <span class="jp">会社概要</span>
             </h2>
 
-            <dl class="list">
+            <dl class="info">
               <dt>会社名</dt>
               <dd>ウェブエンターテイメントデザイン株式会社</dd>
 
@@ -147,7 +152,7 @@
             </dl>
           </div>
 
-          <div class="company-img">
+          <div class="img">
             <img src="./imgfile/company.jpg" alt="company">
           </div>
         </section>
@@ -155,10 +160,10 @@
 
 
 
-    <footer>
-      <div class="footer-content">
-        <div class="wrapper">
-          <div class="footer-img">
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="flex">
+          <div class="header-logo">
             <img src="./imgfile/logo.svg" alt="WEBlogo">
           </div>
           <div class="footer-text">
@@ -172,7 +177,5 @@
         <p class="copyright">© Web Entertainment Design Inc.</p>
       </div>
     </footer>
-
   </body>
-
 </html>
